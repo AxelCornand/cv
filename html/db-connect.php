@@ -34,7 +34,7 @@ if (isset($_GET['name'])
 
     <h2>Ajouter votre prénom</h2>
     <form class="new-member-form">
-        <label for="name">Nom du participant</label>
+        <label for="name">Nom du babydéveloppeur</label>
         <input id="name" name="name" type="text" placeholder="Charalampos" />
         <button type="submit">Envoyer</button>
 </body>
