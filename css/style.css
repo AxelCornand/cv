@@ -15,8 +15,8 @@ main{
     display: grid;
     grid-template-rows: 2fr 2fr;
     background-color: white;
-    border:5px solid black;
-    height: 1080px;
+    border:2px solid black;
+    height: 1075px;
 }
 
 .text-image{
