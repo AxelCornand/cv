@@ -4,7 +4,7 @@ body{
     width: 100%;
 }
 header{
-    background-image: url(../images/background-image.jpg);
+    background-image: url(../images/open_space_work_box.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -19,18 +19,52 @@ main{
     height: 1075px;
 }
 
-.text-image{
+.skills{
     display: grid;
     text-align: center;
     background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+.skills ul {
+    list-style-type:none;
+}
+.softSkills{
+    border-bottom: 2px solid red;
+    width: 80%;
+    margin-left: 10%;
+}
+.skill{
+    border-bottom: 2px solid red;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.projet{
+    border-bottom: 2px solid red;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+
+.contact{
+    border: 2px solid black;
+    border-radius: 25%;
+    width: 50%;
+    margin-left: 280px;
+    margin-top: 20px;
+    padding-bottom: 20px;
     
 }
-
-.sql{
-    margin-bottom: 80px;
+h3{
+    color: red;
+    font-size: 28px;
 }
-
-.text-image a{
+ a {
+    
+    text-decoration: none;
+    padding-bottom: 10px;
     font-size: 20px;
     color: black;
 }
@@ -39,10 +73,4 @@ a:hover{
     color: red;
 }
 
-.text-image img:hover{
--webkit-transform:scale(1.25); /* Safari et Chrome */
--moz-transform:scale(1.25); /* Firefox */
--ms-transform:scale(1.25); /* Internet Explorer 9 */
--o-transform:scale(1.25); /* Opera */
-transform:scale(1.25);
-}
+
