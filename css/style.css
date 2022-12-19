@@ -2,13 +2,14 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     width: 100%;
+    height: auto;
+    text-align: center;
 }
 header{
     background-image: url(../images/open_space_work_box.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1080px;
 }
 
 main{
@@ -16,23 +17,18 @@ main{
     grid-template-rows: 2fr 2fr;
     background-color: white;
     border:2px solid black;
-    height: 1075px;
+    height: 980px;
 }
 
 .skills{
     display: grid;
-    text-align: center;
     background-color: whitesmoke;
     margin-bottom: 10px;
 }
 .skills ul {
     list-style-type:none;
 }
-.softSkills{
-    border-bottom: 2px solid red;
-    width: 80%;
-    margin-left: 10%;
-}
+
 .skill{
     border-bottom: 2px solid red;
     width: 80%;
@@ -46,7 +42,6 @@ main{
     padding-bottom: 15px;
     margin-bottom: 15px;
 }
-
 
 .contact{
     border: 2px solid black;

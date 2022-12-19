@@ -16,7 +16,7 @@
         <section class="skills">
             <h1><strong>Axel Cornand</strong></h1>
             <h2><strong>Développeur Web "back-end"!</strong></h2>
-            <article class="softSkills">
+            <article class="skill">
                 <h3><strong>Soft-Skills</strong></h3>
                 <ul>
                    <?php for ( $indexSoftSkill = 0 ; $indexSoftSkill < count( $softSkills ) ; $indexSoftSkill++ ){ ?>
