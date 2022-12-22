@@ -29,7 +29,7 @@
                 </ul>
             </article>
             <article class="skill">
-            <h3><strong>Skill</strong></h3>
+            <h3><strong>Skills</strong></h3>
                 <ul>
                    <?php for ( $indexSkill = 0 ; $indexSkill < count( $skill ) ; $indexSkill++ ){ ?>
                     <li>
