@@ -21,6 +21,5 @@
         "PHP / Symfony",
         "SQL / Doctrine"
      ];
-
 ?>
 
